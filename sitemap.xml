@@ -11,82 +11,107 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/Add%20a%20custom%20domain/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/Add%20a%20data%20disk%20to%20a%20VM/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/Create%20a%20new%20tenant/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/Availability%20Sets/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/Create%20groups/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/Azure%20Disk%20Encryption%20%28ADE%29/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/Create%20users/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/Change%20VM%20size/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/Group-based%20licensing%20with%20a%20dynamic%20user%20group/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/Clean%20up%20resources/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/Invite%20guests/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/Create%20a%20VM/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/Restore%20deleted%20users/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/Move%20a%20VM%20to%20another%20resource%20group/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Entra%20ID/SSPR/</loc>
+         <loc>https://inthecloud.co.th/skus/aws/VM%20Scale%20Set/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/Add%20a%20data%20disk%20to%20a%20VM/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20365%20Benchmarks/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/Availability%20Sets/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Benchmarks/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/Azure%20Disk%20Encryption%20%28ADE%29/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Intune%20for%20Microsoft%20Windows%20Benchmarks/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/Change%20VM%20size/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Desktop%20Benchmarks/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/Clean%20up%20resources/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%20Benchmarks/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/Create%20a%20VM/</loc>
+         <loc>https://inthecloud.co.th/skus/ms/Add%20a%20custom%20domain/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/Move%20a%20VM%20to%20another%20resource%20group/</loc>
+         <loc>https://inthecloud.co.th/skus/ms/Create%20a%20new%20tenant/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/Virtual%20Machines%20%28VMs%29/VM%20Scale%20Set/</loc>
+         <loc>https://inthecloud.co.th/skus/ms/Create%20groups/</loc>
+         <lastmod>2024-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/Create%20users/</loc>
+         <lastmod>2024-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/Group-based%20licensing%20with%20a%20dynamic%20user%20group/</loc>
+         <lastmod>2024-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/Invite%20guests/</loc>
+         <lastmod>2024-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/Restore%20deleted%20users/</loc>
+         <lastmod>2024-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/SSPR/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
