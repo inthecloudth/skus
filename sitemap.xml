@@ -56,7 +56,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Benchmarks/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Foundations/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -72,6 +72,11 @@
     </url>
     <url>
          <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%20Benchmarks/</loc>
+         <lastmod>2024-10-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/cis/about/</loc>
          <lastmod>2024-10-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
