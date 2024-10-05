@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://inthecloud.co.th/skus/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/Sign%20up%20Azure/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://inthecloud.co.th/skus/aws/Add%20a%20data%20disk%20to%20a%20VM/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
@@ -51,107 +41,212 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Azure%20Kubernetes%20Service%20%28AKS%29%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20365%20Foundations%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Compute%20Services%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Foundations%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Exchange%20Server%202019%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Intune%20for%20Windows%2010%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Intune%20for%20Windows%2011%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%2010%20Enterprise%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%2011%20Enterprise%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%202019%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%202022%20Benchmark/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://inthecloud.co.th/skus/cis/about/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Azure%20Server%20Migration/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/microsoft%20365/CIS%20Microsoft%20365%20Foundations%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Create%20users/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/microsoft%20365/CIS%20Microsoft%20Intune%20for%20Windows%2010%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Azure%20Backup%20and%20Site%20Recovery/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/microsoft%20365/CIS%20Microsoft%20Intune%20for%20Windows%2011%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Azure%20Landing%20Zones/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/microsoft%20azure/CIS%20Azure%20Kubernetes%20Service%20%28AKS%29%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Azure%20Monitor/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/microsoft%20azure/CIS%20Microsoft%20Azure%20Compute%20Services%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Cloud%20Adoption%20Framework%20%28CAF%29%20for%20Azure/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/microsoft%20azure/CIS%20Microsoft%20Azure%20Foundations%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Invite%20guests/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/microsoft%20server%20application/CIS%20Microsoft%20Exchange%20Server%202019%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Restore%20deleted%20users/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/windows%20desktop/CIS%20Microsoft%20Windows%2010%20Enterprise%20Benchmark/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/SSPR/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/windows%20desktop/CIS%20Microsoft%20Windows%2011%20Enterprise%20Benchmark/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/cis/windows%20server/CIS%20Microsoft%20Windows%20Server%202019%20Benchmark/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/cis/windows%20server/CIS%20Microsoft%20Windows%20Server%202022%20Benchmark/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/home/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/home/Sign%20up%20Azure/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Assessment%20and%20remediation%20for%20Defender%20for%20Cloud/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Azure%20Server%20Migration/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Implementing%20Azure%20Backup%20and%20Site%20Recovery/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Implementing%20Azure%20Kubernetes%20Service%20%28AKS%29/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Implementing%20Azure%20Landing%20Zones/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Implementing%20Azure%20Monitor/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Implementing%20Cloud%20Adoption%20Framework%20%28CAF%29%20for%20Azure/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Implementing%20DevSecOps%20on%20AKS/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/azure/Implementing%20Private%20Azure%20Machine%20Learning%20%28ML%29/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/defender/Implementing%20Microsoft%20Defender%20for%20Cloud%20Apps/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/defender/Implementing%20Microsoft%20Defender%20for%20Endpoint/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/defender/Implementing%20Microsoft%20Defender%20for%20Identity/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/exchange/Implementing%20Exchange%20Hybrid/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/exchange/Microsoft%20Exchange%20Server%20Upgrade/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/microsoft%20365/Assess%20and%20remediate%20Microsoft%20Secure%20Score/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/microsoft%20365/Implementing%20Microsoft%20Intune%20features/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/microsoft%20entra/Implementing%20Microsoft%20Entra%20ID%20P2%20features/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/purview/Implementing%20Microsoft%20PurView%20Information%20Protection/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/purview/Implementing%20Microsoft%20Purview%20Data%20Lifecycle%20Management%20%28DLM%29/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/purview/Implementing%20Microsoft%20Purview%20Data%20Loss%20Prevention/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/security/Assess%20and%20remediate%20Entra%20ID%20score/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/security/Assess%20and%20remediate%20Microsoft%20Compliance%20score/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/security/Microsoft%20Entra%20ID%20Score%20Assessment%20and%20Remediation/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/security/Microsoft%20Secure%20Score%20Assessment%20and%20Remediation/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/windows%20server/Active%20Directory%20Certificate%20Services%20%28AD%20CS%29%20Upgrade/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/windows%20server/Active%20Directory%20Domain%20Services%20%28AD%20DS%29%20Upgrade/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/windows%20server/Active%20Directory%20Federation%20Services%20%28AD%20FS%29%20Upgrade/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/windows%20server/Windows%20File%20Server%20Mgiration/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
