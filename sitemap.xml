@@ -111,17 +111,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Add%20a%20custom%20domain/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/ms/Create%20a%20new%20tenant/</loc>
-         <lastmod>2024-10-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/ms/Create%20groups/</loc>
+         <loc>https://inthecloud.co.th/skus/ms/Azure%20Server%20Migration/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -131,7 +121,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/ms/Group-based%20licensing%20with%20a%20dynamic%20user%20group/</loc>
+         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Azure%20Backup%20and%20Site%20Recovery/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Azure%20Landing%20Zones/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Azure%20Monitor/</loc>
+         <lastmod>2024-10-05</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/ms/Implementing%20Cloud%20Adoption%20Framework%20%28CAF%29%20for%20Azure/</loc>
          <lastmod>2024-10-05</lastmod>
          <changefreq>daily</changefreq>
     </url>
