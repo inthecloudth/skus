@@ -11,7 +11,7 @@ extra_css:
 nav:
   - Home: index.md
   - Microsoft:
-    - เกี่ยวกับ Microsoft: ms/about-ms.md
+    - เกี่ยวกับ Microsoft: cis/about.md
     - Azure:
         - Assessment and remediation for Defender for Cloud: ms/azure/Assessment and remediation for Defender for Cloud.md
         - Create users: Entra ID/Create users.md
