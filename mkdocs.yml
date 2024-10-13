@@ -1,0 +1,68 @@
+site_name: "In the Cloud"
+site_url: https://inthecloud.co.th/skus
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.path
+    - navigation.top
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - Home: index.md
+  - Microsoft:
+    - เกี่ยวกับ Microsoft: ms/azure/about-ms.md
+    - Azure:
+        - Assessment and remediation for Defender for Cloud: ms/azure/Assessment and remediation for Defender for Cloud.md
+        - Create users: Entra ID/Create users.md
+        - Create groups: Entra ID/Create groups.md
+        - Restore deleted users: Entra ID/Restore deleted users.md
+        - Group-based licensing: Entra ID/Group-based licensing with a dynamic user group.md
+        - Invite guests: Entra ID/Invite guests.md
+        - Self-service Password Reset (SSPR): Entra ID/SSPR.md
+        - Add a custom domain: Entra ID/Add a custom domain.md
+    - Microsoft 365:
+        - Create a VM: Virtual Machines (VMs)/Create a VM.md
+        - Azure Disk Encryption (ADE): Virtual Machines (VMs)/Azure Disk Encryption (ADE).md
+        - Move a VM to another resource group: Virtual Machines (VMs)/Move a VM to another resource group.md
+        - Change VM size: Virtual Machines (VMs)/Change VM size.md
+        - Add a data disk to a VM: Virtual Machines (VMs)/Add a data disk to a VM.md
+        - Availability Sets: Virtual Machines (VMs)/Availability Sets.md
+        - VM Scale Set: Virtual Machines (VMs)/VM Scale Set.md
+        - Clean up resources: Virtual Machines (VMs)/Clean up resources.md
+    - Windows Server:
+        - Create a VM: Virtual Machines (VMs)/Create a VM.md
+        - Azure Disk Encryption (ADE): Virtual Machines (VMs)/Azure Disk Encryption (ADE).md
+        - Move a VM to another resource group: Virtual Machines (VMs)/Move a VM to another resource group.md
+        - Change VM size: Virtual Machines (VMs)/Change VM size.md
+        - Add a data disk to a VM: Virtual Machines (VMs)/Add a data disk to a VM.md
+        - Availability Sets: Virtual Machines (VMs)/Availability Sets.md
+        - VM Scale Set: Virtual Machines (VMs)/VM Scale Set.md
+        - Clean up resources: Virtual Machines (VMs)/Clean up resources.md
+    - Security:
+        - Create a VM: Virtual Machines (VMs)/Create a VM.md
+        - Azure Disk Encryption (ADE): Virtual Machines (VMs)/Azure Disk Encryption (ADE).md
+        - Move a VM to another resource group: Virtual Machines (VMs)/Move a VM to another resource group.md
+        - Change VM size: Virtual Machines (VMs)/Change VM size.md
+        - Add a data disk to a VM: Virtual Machines (VMs)/Add a data disk to a VM.md
+        - Availability Sets: Virtual Machines (VMs)/Availability Sets.md
+        - VM Scale Set: Virtual Machines (VMs)/VM Scale Set.md
+        - Clean up resources: Virtual Machines (VMs)/Clean up resources.md
+  - CIS:
+    - CIS Benchmarks: cis/about.md
+    - Microsoft Azure:
+        - Implementing CIS Microsoft Azure Foundations Benchmark: cis/CIS Microsoft Azure Foundations Benchmark.md
+        - Implementing CIS Microsoft Azure Compute Services Benchmark: cis/CIS Microsoft Azure Compute Services Benchmark.md
+        - Implementing CIS Azure Kubernetes Service (AKS) Benchmark: cis/CIS Azure Kubernetes Service (AKS) Benchmark.md
+    - Microsoft 365:
+        - Implementing CIS Microsoft 365 Foundations Benchmark: cis/CIS Microsoft 365 Foundations Benchmark.md
+        - Implementing Microsoft Intune for Windows 11 Benchmark: cis/CIS Microsoft Intune for Windows 11 Benchmark.md
+        - Implementing CIS Microsoft Intune for Windows 10 Benchmark: cis/CIS Microsoft Intune for Windows 10 Benchmark.md
+    - Microsoft Windows Server:
+        - Implementing CIS Microsoft Windows Server 2022 Benchmark: cis/windows server/CIS Microsoft Windows Server 2022 Benchmark.md
+        - Implementing CIS Microsoft Windows Server 2019 Benchmark: cis/windows server/CIS Microsoft Windows Server 2019 Benchmark.md
+    - Microsoft Windows Desktop:
+        - Assessment and Remediation - CIS Microsoft Windows 11 Enterprise Benchmark: cis/CIS Microsoft Windows 11 Enterprise Benchmark.md
+        - Assessment and Remediation - CIS Microsoft Windows 10 Enterprise Benchmark: cis/CIS Microsoft Windows 10 Enterprise Benchmark.md
+    - Microsoft Exchange Server:
+        - Assessment and Remediation CIS Microsoft Exchange Server 2019 Benchmark: cis/CIS Microsoft Exchange Server 2019 Benchmark.md
