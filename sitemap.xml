@@ -51,11 +51,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Foundations%20Benchmark/</loc>
-         <lastmod>2024-10-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Exchange%20Server%202019%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
@@ -72,6 +67,11 @@
     </url>
     <url>
          <loc>https://inthecloud.co.th/skus/cis/Implementing%20CIS%20Microsoft%20365%20Foundations%20Benchmark/</loc>
+         <lastmod>2024-10-18</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/skus/cis/Implementing%20CIS%20Microsoft%20Azure%20Foundations%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
