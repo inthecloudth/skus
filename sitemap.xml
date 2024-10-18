@@ -41,62 +41,57 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/about/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Azure%20Kubernetes%20Service%20%28AKS%29%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/microsoft%20365/CIS%20Microsoft%20365%20Foundations%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20365%20Foundations%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/microsoft%20365/CIS%20Microsoft%20Intune%20for%20Windows%2010%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Compute%20Services%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/microsoft%20365/CIS%20Microsoft%20Intune%20for%20Windows%2011%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Foundations%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/microsoft%20azure/CIS%20Azure%20Kubernetes%20Service%20%28AKS%29%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Exchange%20Server%202019%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/microsoft%20azure/CIS%20Microsoft%20Azure%20Compute%20Services%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Intune%20for%20Windows%2010%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/microsoft%20azure/CIS%20Microsoft%20Azure%20Foundations%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Intune%20for%20Windows%2011%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/microsoft%20server%20application/CIS%20Microsoft%20Exchange%20Server%202019%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%2010%20Enterprise%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/windows%20desktop/CIS%20Microsoft%20Windows%2010%20Enterprise%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%2011%20Enterprise%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/windows%20desktop/CIS%20Microsoft%20Windows%2011%20Enterprise%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%202019%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/windows%20server/CIS%20Microsoft%20Windows%20Server%202019%20Benchmark/</loc>
-         <lastmod>2024-10-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/cis/windows%20server/CIS%20Microsoft%20Windows%20Server%202022%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%202022%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
