@@ -46,11 +46,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20365%20Foundations%20Benchmark/</loc>
-         <lastmod>2024-10-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Azure%20Compute%20Services%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
@@ -76,22 +71,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%2010%20Enterprise%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/Implementing%20CIS%20Microsoft%20365%20Foundations%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%2011%20Enterprise%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/Implementing%20CIS%20Microsoft%20Windows%2011%20Enterprise%20Benchmark/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%202019%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/Implementing%20CIS%20Microsoft%20Windows%20Server%20Benchmark%20for%20Domain%20Controllers%20%28DCs%29/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/skus/cis/CIS%20Microsoft%20Windows%20Server%202022%20Benchmark/</loc>
+         <loc>https://inthecloud.co.th/skus/cis/Implementing%20CIS%20Microsoft%20Windows%20Server%20Benchmark%20for%20Member%20Servers/</loc>
          <lastmod>2024-10-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
