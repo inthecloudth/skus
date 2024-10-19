@@ -101,6 +101,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://inthecloud.co.th/skus/ms/Onboarding%20Microsoft%20Defender%20for%20Identity/</loc>
+         <lastmod>2024-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://inthecloud.co.th/skus/ms/about-ms/</loc>
          <lastmod>2024-10-19</lastmod>
          <changefreq>daily</changefreq>
@@ -162,11 +167,6 @@
     </url>
     <url>
          <loc>https://inthecloud.co.th/skus/ms/defender/Implementing%20Microsoft%20Defender%20for%20Identity/</loc>
-         <lastmod>2024-10-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://inthecloud.co.th/skus/ms/defender/Onboarding%20Microsoft%20Defender%20for%20Identity/</loc>
          <lastmod>2024-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
