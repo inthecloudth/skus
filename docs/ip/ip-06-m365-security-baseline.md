@@ -12,6 +12,64 @@
 
 ครอบคลุมการตั้งค่า Entra, Exchange Online, SharePoint/Teams และ Defender ตามสิทธิ์ใช้งานที่มี พร้อม Remediation ที่อนุมัติและ Exception Register
 
+## Architecture Mental Model
+
+**System question:** Where are user access decisions made, and how is configuration drift detected?
+
+This is a conceptual system model, not a physical topology or deployment blueprint. Solid arrows represent interactions or changes; dashed arrows represent observation, constraints, or proposed relationships.
+
+```mermaid
+flowchart LR
+  People["Workforce + external users"] --> Identity["Microsoft Entra ID"]
+  subgraph Services["Microsoft 365 service boundary"]
+    Identity -->|authenticated access| Workloads["Exchange · SharePoint · Teams"]
+    Workloads -->|events| Telemetry["Audit + Defender signals"]
+  end
+  subgraph Improvement["Security governance loop"]
+    Review["Secure Score + baseline assessment"]
+    Prioritize["Risk-ranked controls"]
+    Change["Approved configuration update"]
+    Evidence["Before / after validation"]
+    Review --> Prioritize --> Change --> Evidence
+  end
+  Identity -.->|review configuration| Review
+  Workloads -.->|review configuration| Review
+  Telemetry -.->|risk evidence| Review
+  Change -.->|apply scoped change| Identity
+  Change -.->|apply scoped change| Workloads
+  Evidence -.->|track residual gaps| Review
+  classDef live fill:#edf2f7,stroke:#64748b,color:#0f172a
+  classDef control fill:#e0edff,stroke:#2563eb,color:#0f172a
+  classDef result fill:#e7f5ed,stroke:#21805b,color:#0f172a
+  class People,Identity,Workloads live
+  class Review,Prioritize,Change control
+  class Telemetry,Evidence result
+```
+
+## State & Control Model
+
+```mermaid
+stateDiagram-v2
+  [*] --> Observed
+  Observed --> Prioritized: measure baseline + risk
+  Prioritized --> Approved: choose feasible controls
+  Approved --> Applied: change configuration
+  Applied --> Verified: test expected behavior
+  Applied --> Reverted: unexpected user impact
+  Reverted --> Prioritized: revise control
+  Verified --> Monitored: capture evidence + exceptions
+  Monitored --> Observed: new risk / baseline drift
+  Monitored --> [*]
+```
+
+**Invariants**
+
+- Safety — A score improvement is not proof that tenant risk is eliminated; prioritize independently using exposure and business impact.
+- Change control — Do not deploy tenant-wide restrictions without an approved scope and validation path.
+- Progress — Every selected control results in validated remediation, a tracked exception, or a documented blocker.
+
+**Failure / recovery reasoning:** Conditional Access or workload control blocks legitimate business operations → revert the scoped change and use the evidence to refine policy.
+
 ## Required Inputs / Prerequisites
 
 Tenant Configuration Access, License Inventory, Security Score Snapshot และผู้อนุมัติ Changes
