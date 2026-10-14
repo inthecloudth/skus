@@ -12,6 +12,61 @@
 
 Review Information Protection, Retention, Audit, Records และ eDiscovery เทียบกับข้อกำหนดที่ลูกค้าระบุ พร้อมแก้ไข Controls ลำดับสำคัญเฉพาะขอบเขตที่อนุมัติ
 
+## Architecture Mental Model
+
+**System question:** How do information assets, governance requirements, and enforcement controls relate?
+
+This is a conceptual system model, not a physical topology or deployment blueprint. Solid arrows represent interactions or changes; dashed arrows represent observation, constraints, or proposed relationships.
+
+```mermaid
+flowchart LR
+  Authors["Content creators / owners"] --> Content["Microsoft 365 content"]
+  subgraph Governance["Governance boundary"]
+    Requirements["Policy + regulatory requirements"]
+    Classification["Information classification"]
+    Retention["Retention and records policies"]
+    Oversight["Audit · eDiscovery · evidence"]
+  end
+  Requirements -->|defines| Classification
+  Requirements -->|defines| Retention
+  Content -.->|classify / label| Classification
+  Classification -->|informs policy| Retention
+  Retention -.->|governs lifecycle| Content
+  Content -.->|events and cases| Oversight
+  Retention -.->|policy evidence| Oversight
+  Reviewer["Compliance / legal owner"] -->|approve requirements| Requirements
+  Reviewer -.->|review evidence| Oversight
+  classDef live fill:#edf2f7,stroke:#64748b,color:#0f172a
+  classDef policy fill:#e0edff,stroke:#2563eb,color:#0f172a
+  classDef result fill:#e7f5ed,stroke:#21805b,color:#0f172a
+  class Authors,Content,Reviewer live
+  class Requirements,Classification,Retention policy
+  class Oversight result
+```
+
+## State & Control Model
+
+```mermaid
+stateDiagram-v2
+  [*] --> RequirementsKnown
+  RequirementsKnown --> InventoryMapped: identify content and owners
+  InventoryMapped --> PolicyDesigned: retention / labels mapped
+  PolicyDesigned --> PilotApproved: compliance owner sign-off
+  PilotApproved --> Tested: pilot + impact validation
+  Tested --> Accepted: requirements met in pilot scope
+  Tested --> Revised: unexpected disposition / gap
+  Revised --> PolicyDesigned: adjust controls
+  Accepted --> [*]
+```
+
+**Invariants**
+
+- Safety — Retention or disposition configuration must not conflict with known legal hold or preservation obligations.
+- Traceability — Each selected policy must map to a documented requirement and an accountable owner.
+- Boundary — Technical readiness does not by itself constitute legal or regulatory certification.
+
+**Failure / recovery reasoning:** Pilot reveals an unintended retention or deletion outcome → stop the rollout, preserve evidence, and have the requirement owner approve policy changes.
+
 ## Required Inputs / Prerequisites
 
 ข้อกำหนด Compliance จากฝ่ายที่เกี่ยวข้อง, Purview Feature Inventory, Data Owners, นโยบายที่มีอยู่
