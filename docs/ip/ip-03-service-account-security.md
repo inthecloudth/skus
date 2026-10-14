@@ -12,6 +12,68 @@
 
 ครอบคลุม AD DS/Windows Service Accounts และข้อมูลจากเครื่องมือ Identity Security (หากมี) ตามระบบที่ตกลง พร้อม Remediation เฉพาะรายการที่ได้รับอนุมัติ
 
+## Architecture Mental Model
+
+**System question:** Who is using this identity, and what capabilities can it exercise?
+
+This is a conceptual system model, not a physical topology or a deployment blueprint. Solid arrows show an intended interaction or change; dashed arrows represent observation, constraints, or a proposed relationship.
+
+```mermaid
+flowchart LR
+  subgraph Execution["Runtime usage"]
+    Job["Windows Service / Scheduled Task"]
+    Identity["Service identity"]
+    Directory["Active Directory authentication"]
+    Resource["Application · share · database"]
+    Job -->|runs as| Identity
+    Identity -->|authenticates| Directory
+    Identity -->|requests access| Resource
+  end
+  subgraph Governance["Control and evidence boundary"]
+    Discover["Usage + owner discovery"]
+    Privilege["Rights / dependency review"]
+    Change["Approved remediation · gMSA pilot"]
+    Evidence["Sign-in + service validation"]
+  end
+  Identity -.->|inventory| Discover
+  Directory -.->|evidence| Privilege
+  Resource -.->|dependency| Privilege
+  Discover --> Privilege --> Change
+  Change -.->|controlled update| Identity
+  Identity -.->|observations| Evidence
+  classDef runtime fill:#edf2f7,stroke:#64748b,color:#0f172a
+  classDef control fill:#e0edff,stroke:#2563eb,color:#0f172a
+  classDef result fill:#e7f5ed,stroke:#21805b,color:#0f172a
+  class Job,Identity,Directory,Resource runtime
+  class Discover,Privilege,Change control
+  class Evidence result
+```
+
+## State & Control Model
+
+```mermaid
+stateDiagram-v2
+  [*] --> Unowned
+  Unowned --> Attributed: find owner and use
+  Attributed --> Evaluated: rights and dependencies
+  Evaluated --> Approved: approve least-privilege change
+  Evaluated --> Exception: risk accepted / incompatible
+  Approved --> Pilot: apply controlled change
+  Pilot --> Verified: service + authentication pass
+  Pilot --> Restored: failure / revert
+  Restored --> Evaluated: revise plan
+  Verified --> [*]
+  Exception --> [*]
+```
+
+**Invariants**
+
+- Safety — Do not disable, rotate, or replace a service identity until workloads and owners are identified.
+- Authorization — Changes must preserve only documented and approved privileges.
+- Progress — Every reviewed account has a remediation, exception, or outstanding-dependency decision.
+
+**Failure / recovery reasoning:** Service stops authenticating after a credential or rights change → revert the approved change and investigate hidden consumers or dependencies.
+
 ## Required Inputs / Prerequisites
 
 รายการ Service Accounts, Account Owners, AD DS/Server Read Access, Logon & Service Dependency Information, Change Window
