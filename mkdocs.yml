@@ -10,6 +10,18 @@ extra_css:
   - stylesheets/extra.css
 nav:
   - Home: index.md
+  - Reusable IP Packages:
+    - Overview: ip/index.md
+    - "IP-01 Windows Server Migration Assessment": ip/ip-01-windows-server-migration-assessment.md
+    - "IP-02 Windows Server Migration Implementation": ip/ip-02-windows-server-migration-implementation.md
+    - "IP-03 Service Account Security": ip/ip-03-service-account-security.md
+    - "IP-04 Linux Standardization and Security": ip/ip-04-linux-standardization-hardening.md
+    - "IP-05 AWS Identity and Access Baseline": ip/ip-05-aws-identity-access-baseline.md
+    - "IP-06 Microsoft 365 Security Baseline": ip/ip-06-m365-security-baseline.md
+    - "IP-07 Microsoft 365 Compliance Readiness": ip/ip-07-m365-compliance-readiness.md
+    - "IP-08 Secure AI Apps and Data": ip/ip-08-secure-ai-apps-data.md
+    - "IP-09 Enterprise MCP Server": ip/ip-09-enterprise-mcp-server.md
+    - "IP-10 Professional Support": ip/ip-10-professional-support.md
   - Microsoft:
     - เกี่ยวกับ Microsoft: cis/about.md
     - Azure:
