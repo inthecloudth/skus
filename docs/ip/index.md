@@ -19,6 +19,26 @@
 | 09 | [Enterprise MCP Server Implementation & Integration](ip-09-enterprise-mcp-server.md) | 6 Man-days |
 | 10 | [Professional Support](ip-10-professional-support.md) | 100 ชั่วโมง |
 
+## Architecture Mental Models
+
+แต่ละ IP ประกอบด้วยแผนภาพ **2 มุมมอง** เพื่อให้ผู้อ่านเข้าใจระบบโดยไม่ต้องเริ่มจากชื่อผลิตภัณฑ์หรือขั้นตอนติดตั้ง:
+
+1. **Architecture Mental Model (Structure):** ขอบเขตของระบบ (boundary), actors, state holders, interactions, trust boundaries และ control points; ลูกศรทึบคือ interaction/change และลูกศรประคือ observation/constraint/proposed relationship
+2. **State & Control Model (Behavior):** สถานะที่ระบบหรือกิจกรรมผ่านไปได้, เงื่อนไข transition, กรณี failure/recovery และข้อกำหนดที่ต้องเป็นจริงตลอด (**invariants**)
+
+ส่วน **Safety** ช่วยตอบว่าอะไร *ห้ามเกิดขึ้น* และ **Progress** ช่วยตอบว่าการดำเนินงานจะไปสู่ผลลัพธ์ใดภายใต้เงื่อนไขที่ตกลง ก่อนปรับใช้กับระบบจริงต้องยืนยัน assumptions กับเจ้าของระบบ
+
+> Diagram-as-code ทุกภาพเขียนด้วย Mermaid และแก้ไขได้ใน Markdown โดยตรง ภาพเป็น conceptual models สำหรับใช้ reasoning ไม่ใช่ผัง Physical Deployment และไม่ใช่แผนผังระบบของลูกค้าจริง
+
+### Design approach
+
+แนวทางการลดระบบให้เหลือองค์ประกอบ, state transitions และ invariants ได้แรงบันดาลใจจากบทความสาธารณะของ Dominik Tornow ได้แก่
+
+- [Imperative vs Declarative — State Machine Model](https://dominik-tornow.medium.com/imperative-vs-declarative-8abc7dcae82e)
+- [A Tale of Two Dimensions — Minimal, Self-consistent Mental Models](https://dominik-tornow.medium.com/a-tale-of-two-spectrums-df6035f4f0e1)
+- [Handling Failures From First Principles — Detection and Mitigation](https://dominik-tornow.medium.com/handling-failures-from-first-principles-1ed976b1b869)
+
+แผนภาพในคลังเป็นงานจัดทำขึ้นใหม่เพื่ออธิบาย Service IP แต่ละรายการ ไม่ใช่การนำแผนภาพต้นฉบับมาใช้หรือผลงานที่ผู้เขียนบทความรับรอง
 ## การนำ IP ไปใช้ซ้ำ
 
 1. เลือก IP ที่ตรงกับความต้องการ และกำหนด **Delivery Unit / Target Systems** ของ Engagement
