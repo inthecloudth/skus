@@ -12,6 +12,67 @@
 
 สำรวจ Server, Application และ Dependency ตามรายการที่ตกลง ประเมินความเสี่ยงและความซับซ้อน พร้อมกำหนด Target Baseline, Migration Approach และ Migration Waves; ไม่รวมการย้ายระบบจริง
 
+## Architecture Mental Model
+
+**System question:** What must be understood before deciding how a workload can move?
+
+This is a conceptual system model, not a physical topology or a deployment blueprint. Solid arrows show an intended interaction or change; dashed arrows represent observation, constraints, or a proposed relationship.
+
+```mermaid
+flowchart LR
+  subgraph Current["Current estate"]
+    Host["Windows Server 2016"]
+    App["Application / Service"]
+    Deps["Identity · DNS · Data · Network"]
+    Host -->|hosts| App
+    App -->|depends on| Deps
+  end
+  subgraph Assessment["Assessment boundary — read only"]
+    Inventory["Inventory + ownership"]
+    Graph["Dependency map"]
+    Decision["Compatibility + risk decision"]
+  end
+  subgraph Future["Proposed future — not deployed"]
+    Target["Windows Server 2022 / 2025"]
+    Plan["Migration waves + roadmap"]
+  end
+  Host -.->|observe| Inventory
+  App -.->|observe| Graph
+  Deps -.->|trace| Graph
+  Inventory --> Decision
+  Graph --> Decision
+  Target -.->|evaluate fit| Decision
+  Decision -->|document| Plan
+  classDef live fill:#edf2f7,stroke:#64748b,color:#0f172a
+  classDef reasoning fill:#e0edff,stroke:#2563eb,color:#0f172a
+  classDef output fill:#e7f5ed,stroke:#21805b,color:#0f172a
+  class Host,App,Deps,Target live
+  class Inventory,Graph,Decision reasoning
+  class Plan output
+```
+
+## State & Control Model
+
+```mermaid
+stateDiagram-v2
+  [*] --> Unknown
+  Unknown --> Discovered: inventory + owner
+  Discovered --> Mapped: dependencies verified
+  Mapped --> Evaluated: compatibility + risk
+  Evaluated --> Planned: target + waves chosen
+  Evaluated --> Blocked: unsupported / missing evidence
+  Blocked --> Evaluated: resolve uncertainty
+  Planned --> [*]
+```
+
+**Invariants**
+
+- Safety — A workload is not marked migration-ready without an owner, dependency map, and a documented compatibility/risk decision.
+- Progress — Every in-scope workload ends with either a migration recommendation or a documented blocker.
+- Boundary — This IP observes and plans; it does not execute cutover.
+
+**Failure / recovery reasoning:** Unknown dependency or unsupported application → record a blocker and obtain owner/vendor evidence before defining the wave.
+
 ## Required Inputs / Prerequisites
 
 Server inventory, รายการ Application Owner, สิทธิ์อ่าน Configuration/Logs ตามที่ตกลง, ข้อมูลระบบเชื่อมต่อที่เกี่ยวข้อง
